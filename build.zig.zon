@@ -1,0 +1,15 @@
+.{
+    .name = "rmw_cyclonedds",
+    .version = "2.2.2",
+    .dependencies = .{
+        .ros2_tracing=.{
+            .url = "https://github.com/ros2/ros2_tracing/archive/tags/8.2.1.tar.gz", // Jazzy
+            .hash = "12209c16437ef17d56d861fcb26eaf576495edb777b71db7bc34e6d31ee126c22683",
+        },
+
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
