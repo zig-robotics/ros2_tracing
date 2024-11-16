@@ -18,6 +18,7 @@ pub fn build(b: *std.Build) void {
     //     .root_module = .{
     //         .target = target,
     //         .optimize = optimize,
+    //         .pic = if (linkage == .dynamic) true else null,
     //     },
     //     .name = "tracetools",
     //     .kind = .lib,
